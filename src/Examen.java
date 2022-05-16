@@ -9,14 +9,9 @@ public class Examen {
 		System.out.println("Buenos días Ceinmark, soy Samuel Ceballos.");
 		
 		System.out.println("Entregame un número y te diré si es primo.");
-		n = Integer.parseInt(in.nextLine());
-		
-		if (n%2 == 0) {
-			System.out.println("Es primo");
-		}
-		else {
-			System.out.println("No es primo");
-		}
-		
+		n = Integer.parseInt(in.nextLine());	
 	}
 }
+
+
+
